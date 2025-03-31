@@ -1,8 +1,8 @@
 local Cache = require(script:WaitForChild("Cache"))
 local TimedCache = require(script:WaitForChild("TimedCache"))
 
-type Cache = Cache.Cache
-type TimedCache = TimedCache.TimedCache
+export type Cache = Cache.Cache
+export type TimedCache = TimedCache.TimedCache
 
 type GeneralCache = Cache | TimedCache
 

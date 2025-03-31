@@ -1,7 +1,11 @@
 [package]
-name = "menso/cachesystem"
-version = "0.1.0"
+name = "mensonrbx/cachesystem"
+authors = ["mensonrbx"]
+description = "Cache System for creating simple cache objects that function like hashmaps/dicts. Main purpose is to experiment with dependencies in Wally"
+version = "0.1.1"
 registry = "https://github.com/UpliftGames/wally-index"
+repository = "https://github.com/MensonRbx/CacheSystem"
 realm = "shared"
+license = "unlicense"
 
 [dependencies]
